@@ -12,8 +12,7 @@ header {
     justify-content: space-between;
 }
 img#genbrun-logo {
-    width: 100px;
-    height: 55px;
+    width: 90px;
     display: flex;
     float: left;
     margin-left: 10px;
