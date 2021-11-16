@@ -80,9 +80,8 @@ section#logos {
 	section#footer {
 		font-size: 15px;
 		padding: 10px;
-		font-kerning: 100px;
 	}
 	section#left {
-		margin-right: 6vw;
+		margin-right: 8vw;
 	}
 }
