@@ -36,7 +36,7 @@ main {
     
 }
 #txt {
-    margin: 200px 0px;
+    margin: 180px 0px;
     
 }
 h1 {
@@ -51,7 +51,7 @@ h3 {
     width: 150px;
 }
 #new-arrivals-graphic {
-    width: 350px;
+    width: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,10 +61,12 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: auto;
-    display: flex block;
+    display: flex;
+    flex-wrap: wrap;
 }
 .ig-pictures {
     width: 170px;
+    margin: 5px;
 }
 .flex {
     padding: 20px;
@@ -79,6 +81,7 @@ h3 {
 }
 p.flexcontainer {
     font-family: sans-serif;
+    margin: auto;
 }
 /* Footer */
 footer {
@@ -114,7 +117,6 @@ section#logos {
 	justify-content: space-between;
 	margin-right: 10px;
 	margin-left: 10px;
-    
 }
 #ig {
     min-width: 30px;
