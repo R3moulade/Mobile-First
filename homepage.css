@@ -61,9 +61,24 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: auto;
+    display: flex block;
 }
 .ig-pictures {
     width: 170px;
+}
+.flex {
+    padding: 20px;
+}
+.flexcontainer {
+    color: rgb(110,86,77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+p.flexcontainer {
+    font-family: sans-serif;
 }
 /* Footer */
 footer {
