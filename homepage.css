@@ -47,7 +47,21 @@ h3 {
     font-family: sans-serif;
     
 }
-
+#new-arrivals-graphic {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#ig-feed {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.ig-pictures {
+    width: 170px;
+}
 /* Footer */
 footer {
     background-color: rgb(110,86,77);
