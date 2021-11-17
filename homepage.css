@@ -47,6 +47,9 @@ h3 {
     font-family: sans-serif;
     
 }
+#find-us {
+    width: 150px;
+}
 #new-arrivals-graphic {
     width: 350px;
     display: flex;
