@@ -10,6 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 img#genbrun-logo {
     width: 90px;
@@ -26,23 +27,27 @@ img#burger-menu {
 }
 /* End Header */
 main {
-    background-image: url(images/genbrun4ibsoerensen.jpg);
+    background-image: url(images/genbrun4ibsoerensen.png);
     height: 500px;
     background-position: center;
     text-align: center;
     color: white;
     align-items: center;
+    
 }
 #txt {
-    margin: 190px 0px;
+    margin: 200px 0px;
     
 }
 h1 {
     font-family: "MADE Sunflower";
+    font-size: 39px;
 }
-h2 {
-    font-family: "MADE Sunflower";
+h3 {
+    font-family: sans-serif;
+    
 }
+
 /* Footer */
 footer {
     background-color: rgb(110,86,77);
