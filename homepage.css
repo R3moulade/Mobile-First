@@ -11,6 +11,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    overflow-y: hidden;
 }
 img#genbrun-logo {
     width: 90px;
@@ -25,7 +26,33 @@ img#burger-menu {
     float: right;
     margin-right: 10px;
 }
+/* Desktop Header */
+#menu-nav {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	margin-right: 3vw;
+	display: none;
+}
+.menunav {
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	font-family: sans-serif;
+}
+#header-desktop {
+    display: none;
+    height: 70px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow-y: hidden;
+}
+/* Desktop Header End */
 /* End Header */
+
+/* Hero Image */
 main {
     background-image: url(images/genbrun4ibsoerensen.png);
     height: 500px;
@@ -33,6 +60,7 @@ main {
     text-align: center;
     color: white;
     align-items: center;
+    background-repeat: no-repeat;
 }
 #txt {
     margin: 180px 0px;
@@ -48,12 +76,15 @@ h3 {
 #find-us { /* Button */
     width: 150px;
 }
+/* Hero Image End */
 #new-arrivals-graphic {
     width: 85vw;
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 30px;
 }
 #ig-feed {
     justify-content: center;
@@ -129,14 +160,46 @@ section#logos {
 }
 /* End Footer */
 @media only screen and (min-width: 426px) {
+    header {
+        height: 0;
+    }
 	img#genbrun-logo {
 		margin-left: 3vw;
 	}
 	img#burger-menu {
 		margin-right: 3vw;
+        display: none;
 	}
+    #menu-nav {
+		display: flex;
+	}
+    .menunav {
+        color: white;
+    }
+    #header-desktop {
+        position: relative;
+        top: 15px;
+        display: flex;
+        z-index: 1;
+    }
     main {
-        background-image: rep;
+        background-image: url(images/indehavere-af-genbrun.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 1000px;
+        position: relative;
+        top: -70px;
+    }
+    #txt {
+        justify-items: space-around;
+        margin-top: 400px;
+    }
+    #find-us {
+        margin: 10px;
+    }
+    
+    .flexcontainer {
+        margin: 10px;
     }
 	section#footer {
 		font-size: 15px;

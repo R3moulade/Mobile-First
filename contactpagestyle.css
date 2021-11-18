@@ -186,14 +186,16 @@ section#logos {
     section#contact{
         flex-direction: row;
         margin: auto;
-        
-        
-
-
-
+        max-width: 1200px;
     }
     section#map{
         margin: auto;
     }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
         
 }
