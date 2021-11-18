@@ -6,10 +6,10 @@
 header {
     background-color: white;
     height: 70px;
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+	overflow-y: hidden;
 }
 img#genbrun-logo {
     width: 90px;
@@ -23,6 +23,19 @@ img#burger-menu {
     display: block;
     float: right;
     margin-right: 10px;
+}
+#menu-nav {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	margin-right: 3vw;
+	display: none;
+}
+.menunav {
+	color: rgb(110,86,77);
+	text-decoration: none;
+	margin: 5px;
+	font-family: sans-serif;
 }
 footer {
     background-color: rgb(110,86,77);
@@ -57,7 +70,6 @@ section#logos {
 	justify-content: space-between;
 	margin-right: 10px;
 	margin-left: 10px;
-    
 }
 #ig {
     min-width: 30px;
@@ -74,7 +86,10 @@ section#logos {
 		margin-left: 3vw;
 	}
 	img#burger-menu {
-		margin-right: 3vw;
+		display: none;
+	}
+	#menu-nav {
+		display: flex;
 	}
 	section#footer {
 		font-size: 15px;
