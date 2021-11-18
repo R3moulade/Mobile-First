@@ -39,8 +39,6 @@ img#burger-menu {
 }
 
 
-
-    
 /*main starts*/
 
 
@@ -171,6 +169,10 @@ section#logos {
 	#menu-nav {
 		display: flex;
 	}
+    section#contactus {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
 	section#footer {
 		font-size: 15px;
 		padding: 10px;
