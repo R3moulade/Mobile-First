@@ -33,11 +33,9 @@ main {
     text-align: center;
     color: white;
     align-items: center;
-    
 }
 #txt {
     margin: 180px 0px;
-    
 }
 h1 {
     font-family: "MADE Sunflower";
@@ -47,11 +45,11 @@ h3 {
     font-family: sans-serif;
     
 }
-#find-us {
+#find-us { /* Button */
     width: 150px;
 }
 #new-arrivals-graphic {
-    width: 360px;
+    width: 85vw;
     display: flex;
     justify-content: center;
     align-items: center;
