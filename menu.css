@@ -7,17 +7,17 @@ body {
     background-color: rgb(110,86,77);
 }
 #images {
-    height: 40px;
-    margin: 0px 7px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 #fb {
-    margin-right: 9px;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    margin-left: 5px;
 }
 #ig {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    margin-right: 2px;
 }
 section#images {
     align-items: center;
@@ -40,7 +40,7 @@ ul#menu {
 }
 h1 {
     color: white;
-    margin: 50px 0px;
+    margin: 15vw 0px;
     font-size: 22px;
     font-family: "MADE Sunflower";
     letter-spacing: 3.5px;
@@ -50,7 +50,7 @@ h2 {
     font-size: 50px;
     font-family: sans-serif;
     font-weight: lighter;
-    margin-right: 20px;
+    margin-right: 30px;
     margin-top: 20px;
     float: right;
 }
@@ -58,5 +58,7 @@ a {
     text-decoration: none;
 }
 @media only screen and (min-width: 426px) {
-
+    h1 {
+        margin: 100px 0px;
+    }
 }

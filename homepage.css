@@ -117,6 +117,7 @@ section#logos {
 	justify-content: space-between;
 	margin-right: 10px;
 	margin-left: 10px;
+    overflow-x: visible;
 }
 #ig {
     min-width: 30px;
@@ -136,6 +137,9 @@ section#logos {
 	img#burger-menu {
 		margin-right: 3vw;
 	}
+    main {
+        background-image: rep;
+    }
 	section#footer {
 		font-size: 15px;
 		padding: 10px;
